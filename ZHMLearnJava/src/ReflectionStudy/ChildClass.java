@@ -1,11 +1,11 @@
-package ReflectionStudy
+package ReflectionStudy;
 
 class ChildClass extends ParentClass {
-    String childName;
-    int childAge;
-    String childBirthday;
+    public String childName;
+    public int childAge;
+    public String childBirthday;
 
-    void printChildMsg() {
+    public void printChildMsg() {
         System.out.println("Child attributes are: childAge: " + childAge + " childName " + childName);
     }
 }

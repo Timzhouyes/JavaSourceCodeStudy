@@ -3,7 +3,7 @@ package ReflectionStudy;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-class ReflectionStudy {
+class ReflectionStudyField {
     static void main(String[] args) {
         Class tClass = ChildClass.class;
         System.out.println("Class name is " + tClass.getName());
