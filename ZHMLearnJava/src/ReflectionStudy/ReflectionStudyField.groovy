@@ -1,7 +1,7 @@
-package ReflectionStudy;
+package ReflectionStudy
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
+import java.lang.reflect.Field
+import java.lang.reflect.Modifier
 
 class ReflectionStudyField {
     static void main(String[] args) {
@@ -25,6 +25,7 @@ class ReflectionStudyField {
             System.out.print("Modifier toString is " + Modifier.toString(modifiers));
             System.out.println(field.getType().getName() + " " + field.getName());
         }
+
     }
 
 }
