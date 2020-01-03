@@ -6,6 +6,4 @@ public class FinalFieldClass {
     public String getFINAL() {
         return FINAL;
     }
-
-
 }
